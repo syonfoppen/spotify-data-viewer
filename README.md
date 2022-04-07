@@ -9,3 +9,4 @@ The goal of this project is to learn more about the .NET Blazor framework, the S
 - OAuth 2.0 authorization
 - Spotify REST API
 - Tailwind CSS framework
+- Docker
