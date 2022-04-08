@@ -29,7 +29,14 @@
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
       "publishAllPorts": true,
-      "useSSL": true
+      "useSSL": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CLIENT_ID": "[SPOTIFY CLIENT ID]",
+        "CLIENT_SECRET": "[SPOTIFY CLIENT SECRET]"
+
+      }
+
     }
   }
 }
